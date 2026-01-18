@@ -1,7 +1,12 @@
+import FriendList from "./Component/FriendList.jsx";
 export default function App() {
   return (
     <>
-      <p>I am ready</p>
+      <div className="app">
+        <div className="sidebar">
+          <FriendList />
+        </div>
+      </div>
     </>
   );
 }
