@@ -1,8 +1,7 @@
-import initialFriends from "../data";
 import Friend from "./Friend";
 
-export default function FriendList() {
-  const friends = initialFriends;
+export default function FriendList({ friends }) {
+  // const friends = initialFriends;
 
   return (
     <>
